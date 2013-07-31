@@ -2,7 +2,7 @@
 Framework for testing web application
 
 ## Install Jspec
-sudo npm install -g jspec
+sudo npm install jspec
 
 ## Update Jspec
-sudo npm update -g jspec
+sudo npm update jspec
