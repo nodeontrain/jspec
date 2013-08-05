@@ -4,8 +4,7 @@
   "version": "0.0.3",
   "author": "Dang Duy Thanh <thanhdd.it@gmail.com>",
   "devDependencies": {
-    "mocha": "*",
-    "trainjs": "*"
+    "mocha": "*"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
   "readmeFilename": "README.md",
   "gitHead": "7890dd293a7c1dff4c3c2f7b9c136f32378344ac",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/test.sh"
   },
   "license": [{
       "type" : "GPL v3",
