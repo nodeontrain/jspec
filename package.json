@@ -1,7 +1,7 @@
 {
   "name": "jspec",
   "description": "Framework for testing web application",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Dang Duy Thanh <thanhdd.it@gmail.com>",
   "devDependencies": {
     "mocha": "*"

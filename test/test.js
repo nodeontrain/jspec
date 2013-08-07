@@ -15,9 +15,8 @@ it("Two object are equal", function() {
 
 it("Post data", function(done) {
 	var obj1 = {user: "thanh", pass: "[!@3456"};
-	var obj2 = {pass: "[!@3456", user: "thanh"};
 	jspec.post("/post", obj1, function(content) {
-		jspec.object_equals(obj1, obj2);
+		jspec.object_equals(obj1, JSON.parse(content));
 		done();
 	})
 })

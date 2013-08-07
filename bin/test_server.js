@@ -1,5 +1,4 @@
 var http = require('http');
-var querystring = require('querystring');
 
 http.createServer(function (req, res) {
 	if (req.url == "/") {
@@ -7,7 +6,6 @@ http.createServer(function (req, res) {
 		res.end('Welcome');
 	} else if (req.url == "/post") {
 		var postData = "";
-		var value = "";
 		req.on('data', function(chunk) {
 			postData += chunk;
 		});
