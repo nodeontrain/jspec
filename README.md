@@ -4,21 +4,25 @@ Framework for testing web application
 
 ## Install Jspec
 ```shell
-npm install jspec
+	npm install jspec
 ```
 
 ## Update Jspec
 ```shell
-npm update jspec
+	npm update jspec
 ```
 
 ## Running Tests
 Before you run tests, you may need to first install mocha module.
 ```shell
-sudo npm install -g mocha
+	sudo npm install -g mocha
 ```
-
 To run the tests:
 ```shell
-npm test
+	npm test
 ```
+
+## License
+Copyright (C) 2013 by Đặng Duy Thanh
+
+The Jspec is license under the terms of the GNU General Public License v3.
