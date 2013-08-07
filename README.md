@@ -1,14 +1,24 @@
 # Jspec
-Framework for testing web application
+Framework for testing web application  
+[![NPM](https://nodei.co/npm/jspec.png)](https://nodei.co/npm/jspec/)
 
 ## Install Jspec
-		npm install jspec
+```shell
+npm install jspec
+```
 
 ## Update Jspec
-		npm update jspec
+```shell
+npm update jspec
+```
 
 ## Running Tests
 Before you run tests, you may need to first install mocha module.
-<pre><code>    sudo npm install -g mocha</code></pre>
+```shell
+sudo npm install -g mocha
+```
+
 To run the tests:
-<pre><code>    npm test</code></pre>
+```shell
+npm test
+```
